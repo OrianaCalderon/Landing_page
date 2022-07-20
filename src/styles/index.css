@@ -1,12 +1,31 @@
-
-/* 
-
-    You can write your own styles here...
+.navbar{
+    padding-left:15em;
+    padding-right: 15em;
+}
+.container{
+    padding-right: 7em;
+    padding-left: 15em;
+    margin-left: 0em;
+    margin-right: 0em;
+}
+.jumbotron{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #f1f1f1 ;
+    padding-bottom: 5em;
+    padding-left: 2em;
+    padding-right: 3em;
+    border-radius: 5px;
+}
+.card{
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+    margin: 5px;
+}
+.nav{
+    padding-top: 2em;
+    margin-top: 10px;
+    padding-bottom: 2em;
+}
+.websiteFooter{
+    color: #f1f1f1;
+}

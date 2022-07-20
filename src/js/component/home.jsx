@@ -1,22 +1,17 @@
 import React from "react";
-import rigoImage from "../../img/rigo-baby.jpg";
 
 //create your first component
 const Home = () => {
 	return (
-		<div className="text-center">
-			<h1 className="text-center mt-5">Hello Rigo!</h1>
+		<div className="jumbotron">
+			<h1 className="text">A Warm Welcome</h1>
 			<p>
-				<img src={rigoImage} />
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur doloribus iusto accusantium cum praesentium a omnis quo rerum maiores maxime quia quibusdam veniam vero nostrum modi fugiat, doloremque deserunt non!
 			</p>
-			<a href="#" className="btn btn-success">
-				If you see this green button... bootstrap is working...
+			<a href="#" className="btn btn-primary">
+				Call to action
 			</a>
-			<p>
-				Made by{" "}
-				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
-				love!
-			</p>
+			
 		</div>
 	);
 };
